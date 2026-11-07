@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeuroNest AI</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+    <div class="app-container">
+
+        <header class="header">
+            <div class="logo">✦ NeuroNest AI</div>
+            <span class="status">● Online</span>
+        </header>
+
+        <main class="chat-container">
+
+            <div class="welcome" id="welcome">
+                <div class="welcome-icon">✦</div>
+                <h1>Welcome to NeuroNest AI</h1>
+                <p>Your intelligent assistant. Ask me anything!</p>
+            </div>
+
+            <div class="chat-messages" id="chatMessages"></div>
+
+        </main>
+
+        <footer class="input-area">
+
+            <div class="input-box">
+                <input
+                    type="text"
+                    id="userInput"
+                    placeholder="Message NeuroNest AI..."
+                    autocomplete="off"
+                >
+
+                <button id="sendButton" onclick="sendMessage()">
+                    ➤
+                </button>
+            </div>
+
+            <p class="footer-text">
+                Powered by Google Gemini AI
+            </p>
+
+        </footer>
+
+    </div>
+
+    <script src="/static/script.js"></script>
+
+</body>
+</html>
